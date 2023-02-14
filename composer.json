@@ -1,0 +1,22 @@
+{
+    "name": "prashanthestabit/laravel-create-web-curd-operations",
+    "description": "Create CRUDs for all Models that don\\'t already have one.",
+    "type": "metapackage",
+    "license": "HestaBit",
+    "authors": [
+        {
+            "name": "Prashant Pandey",
+            "email": "prashantpandey.hestabit@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3",
+        "illuminate/support": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prashanthestabit\\Laravel-create-web-curd-operations\\": "src/"
+        }
+    }
+}
